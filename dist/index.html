@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Facebook Login</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="shortcut icon"
+      href="https://freepnglogo.com/images/all_img/facebook-circle-logo-png.png"
+      type="image/x-icon"
+    />
+  </head>
+  <body class="bg-slate-100">
+    <section
+      class="h-screen w-[95%] flex flex-col justify-center items-center gap-1 md:flex-row md:gap-4 m-4"
+    >
+      <div
+        class="w-[28rem] h-[20rem] flex flex-col justify-center items-center md:h-[30rem] md:items-start"
+      >
+        <img
+          class="w-60"
+          src="./images/Facebook Logo.jpg"
+          alt="Facebook logo"
+        />
+        <p class="text-justify text-2xl">
+          Facebook helps you connect and <br />share with the people in your
+          life.
+        </p>
+      </div>
+      <div
+        class="w-[25rem] h-[25rem] bg-white flex flex-col justify-center rounded-xl p-8"
+      >
+        <form action="" class="flex flex-col items-center gap-4">
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Enter address or phone number"
+            class="w-full h-12 rounded-md border border-slate-300 placeholder:text-slate-400 p-4"
+          />
+          <input
+            class="w-full h-12 rounded-md border border-slate-300 placeholder:text-slate-400 p-4"
+            type="password"
+            name="password"
+            id="password"
+            placeholder="Password"
+          />
+          <button
+            class="w-full h-12 rounded-md bg-blue-600 text-white font-medium hover:bg-blue-800"
+          >
+            Log In
+          </button>
+        </form>
+        <a href="#" class="text-blue-600 mx-auto mt-4 mb-4 active:text-blue-900"
+          >Forgotten Password?</a
+        >
+        <hr />
+        <button
+          class="w-[80%] h-12 mx-auto rounded-md bg-green-600 text-white font-medium hover:bg-green-800 mt-4"
+        >
+          Create New Account
+        </button>
+      </div>
+    </section>
+  </body>
+</html>
